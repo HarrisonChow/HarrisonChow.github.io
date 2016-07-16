@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>colors</title>
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p id = "rgb"></p>
+            </li>
+            <li class="list-group-item">
+              <p id = "hex"></p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <form class="form-inline" id="rgbTohex">
+            <div class="form-group">
+              <input type="number" class="form-control" name="quantity" value="0" id = "getR" min="0" max="255">
+              <input type="number" class="form-control" name="quantity" value="255" id = "getG" min="0" max="255">
+              <input type="number" class="form-control" name="quantity" value="255" id = "getB" min="0" max="255">
+            </div>
+            <button type="submit" class="btn btn-primary">Get HEX</button>
+          </form>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
